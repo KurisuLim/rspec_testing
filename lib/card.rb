@@ -14,6 +14,10 @@ class Card
         end
     end
 
+    def inspect
+        to_s
+    end
+
     def suit 
         @suit
     end
